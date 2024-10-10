@@ -1,0 +1,32 @@
+body{ 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+header, footer{ 
+    background-color: aqua;
+}
+.site-title {
+    color:blueviolet;
+}
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+ul{
+    list-style: square;
+}
+li:nth-child(odd){
+    background-color: blueviolet;
+}
+.nav{
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    border: solid 1px yellow;
+}
+.nav a:hover{
+    text-decoration: none;
+    background-color:rgb(185, 159, 234);
+    border: solid 1px yellow;
+}
