@@ -1,0 +1,40 @@
+header{ background-color: blue;
+padding: 1rem;
+margin: 2rem;
+}
+
+h1{ color : red; }
+/* this is a demo comment */
+h1,h2,h3{ 
+    /* border: 1px solid rgb(226, 214, 43); */
+    text-decoration: underline;
+}
+p{
+    font-weight: 600;
+}
+/* target para within a div */
+div p{
+    font-weight: 200;
+}
+/*  #test {
+
+ */
+/* when targetting a class we need */
+.highligth{
+    background-color: blueviolet;
+}
+/* when targetting an id */
+#explain{
+    border: 2px solid gray;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+li:nth-child(odd){
+    background-color: yellow;
+}
+li:nth-child(even){
+    background-color: brown;
+}
+li:nth-child(3){
+    background-color: bisque;
+}

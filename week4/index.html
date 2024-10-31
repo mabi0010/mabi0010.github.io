@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 4</title>
+</head>
+<body>
+    <header>
+        <h1>week 4</h1>  
+    </header>
+    <main>
+        <!-- learning about img tag -->
+        <h2>image tag example</h2>
+<!-- if image is decorative keep the alt tag empty alt="" -->
+        <img src="./images/coffee-shop.jpg" alt="coffee cup with coffee beans " width="500">
+        <img src="./images/coffee-shop.jpg" title="coffe cup with coffee beans" width="500">
+        <!-- learing about a tag -->
+         <h2>link tag example</h2>
+        <p> Here is a link to visit <a href="https:/www.google.com"target="blank">Google Homepage</a>.</p>
+        <a href="./thanks.html ">Thank you page </a>
+        ,<br>
+        <a href="#cakes">jump to cake memu </a>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, eos quia. Necessitatibus sit quam debitis pariatur laudantium, deleniti asperiores libero? Vel accusamus dolorum exercitationem animi aliquam, ullam libero! Distinctio, quaerat.   </p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero illo unde perspiciatis iure. Doloremque quis vel, vitae expedita molestiae sequi reiciendis amet fuga veritatis et deleniti porro, accusamus magnam consequuntur! </p>
+        <ul id="cakes"> 
+            <li>Red velvet</li>
+            <li>Tiramisu</li>
+        </ul>
+        <!-- Table in HTML  -->
+         <h2>simple HTML Table</h2>
+         <table border="1">
+            <caption>student Grades</caption>
+            <thead>
+                <tr>
+                    <th>student name</th>
+                    <th>coures Name </th>
+                    <th>Grade </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>smith john </td>
+                    <td>wed Fev</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Mel </td>
+                    <td>wed Fev 2 </td>
+                    <td>A</td>
+                </tr>
+            </tbody>
+         </table>
+         <table border="1">
+            <caption>student Grades</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Names</th>
+                    <th colspan="2">Scores</th>
+                </tr>
+                <tr>
+                    <th>maths</th>
+                    <th>English</th>
+                </tr>
+            </thead>
+         </table>
+         <table border="2">
+            <caption> calender</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">weekday</th>
+                    <th colspan="2">month</th>
+                </tr>
+                <tr>
+                    <th>Mon</th>
+                    <th>wed</th>
+                    <th>jan</th>
+                    <th>May</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tbody>
+            <tbody>
+                <td>2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>1</td>
+            </tbody>
+         </table>
+         <!-- form elements  -->
+          <h2> form elements </h2>
+          <form action="./thnak.html" method="get">
+            <label for="fullname ">Name</label>
+            <input id="fullname" type="text" name="fullname" min="0" max="20" step="2" value="MR. or MS">
+             <br>
+            <label for="user email"> Email</label>
+            <input id="user email" type="email" required>
+            <!-- dropdown -->
+             <label for="rock">choose your Rock</label>
+             <select id="rock" name="rock">
+                <option value="mars">Mars</option>
+                <option value="humans">Earth</option>
+                <option value="venus">Venus</option>
+             </select>
+             <!-- radio button  -->
+             <label for="little">0-1</label> <input type="radio" id="little"
+             name="musictime" value="0-1">
+             <label for="some">2-3</label>
+             <input type="radio" id="some"
+             • name="musictime" value="2-3" checked>
+             <label for="alot">4-5</label>
+             <input type="radio" id="alot" name="musictimel" value="4-5">
+             <label for="alotmore">6-8</label>
+             <input type="radio" id="alotmore" name="musictimel" value="6-8">
+
+            <button type="submit">send</button>
+          </form>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nihil itaque recusandae. Expedita adipisci accusantium illum, voluptas deserunt eius eveniet quibusdam. Quas fugit dolorem sint at est velit id aut.</p>
+        </main>
+    </main>
+</body>
+</html>
