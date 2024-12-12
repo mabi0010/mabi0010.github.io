@@ -1,0 +1,248 @@
+/*css reset code*/
+html{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+}
+
+header{
+    background-color: #222;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 5.063em;
+}
+h2{
+    font-size: 3.375em;
+}
+h3{
+    font-size:2.25em ;
+}
+h4{
+    font-size: 1.5em;
+}
+.logo img{
+   width: 15%;
+   height: 16%;
+}
+
+nav a {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav ul li{
+    color: #c78c06;
+    font-size: 19px;
+    text-align: center;
+    width: 100%;
+}
+a{
+    color: #c78c06;
+    font-size: 1.5em;
+}
+nav a:hover{
+    background-color: #c78c06;
+    color: #222;
+}
+
+nav input{
+    font-size: 18px;
+    width: 100%;
+    padding-left: 5px;
+    padding: 0.5em 0;
+}
+nav label{
+    display: none;
+}
+nav ul :nth-child(6){
+    display: flex;
+}
+nav i {
+    color:#c78c06;
+    width: auto;
+    padding: 0.7em;
+    border: 1px solid #c78c06;
+}
+/* Banner Section */
+.main-banner {
+    text-align: center;
+    padding: 2rem;
+    background: url('images/main-banner.jpg') no-repeat center center/cover;
+    color: #222;
+}
+
+.main-banner h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-banner p {
+    margin-bottom: 1.5rem;
+}
+
+.button-primary {
+    background-color: #c78c06;
+    color:#222;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button-primary:hover {
+    background-color: #fff;
+    color: #c78c06;
+}
+
+/* About Us Section */
+#about\ us {
+    width: 100%;
+    padding: 2rem;
+}
+
+.about-us img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.about-us p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.service p {
+    margin-bottom: 1rem;
+}
+
+/* Team Section */
+.JohnDoe{
+    background-color: #ffe6ac;
+    width: 100%;
+}
+.BobRite{
+    background-color: #ffe6ac;
+    width: 100%;
+}
+.team-member h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;#
+}
+
+.team-member h4 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+/* Services Section */
+#Ourservices {
+    padding: 2rem;  
+}
+.service {
+    flex-direction: column;
+    margin-bottom: 2rem;
+    background-color: #ffe6ac;
+    width: 100%;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.service h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.service p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form input[type="submit"] {
+    background-color: #c78c06;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.hours-wrapper {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hours-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.hours-wrapper th {
+    padding: 0.5rem;
+    border-bottom: 2.5rem solid #ffe6ac;
+}
+.hours-wrapper td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .about-us {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .team-member {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

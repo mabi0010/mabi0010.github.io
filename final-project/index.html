@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/ee097413d1.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,17 +16,16 @@
             <nav class="navigation">
                 <ul class="nav-list">
                     <li><a href="#section1">Home</a></li>
-                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section2">About us</a></li>
                     <li><a href="#section3">services</a></li>
                     <li><a href="#section4">Team</a></li>
                     <li><a href="#section5">contact</a></li>
+                    <li>
+                        <label for="Search">Search</label>
+                        <input type="text" id="Search" placeholder="Search" name="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
                 </ul>
-                <form action=" #section " method="post">
-                    <input type="text " placeholder="search" name="search">
-                    <Button class="search-button">
-                       <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </form>
             </nav>
         </div>
     </header>
@@ -36,33 +37,43 @@
         <p> 
          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aut deleniti veniam sequi suscipit ut, harum mollitia fugit cum. Fugiat error dignissimos suscipit nemo dolorum vitae iste, aliquam ad unde.
         </p>
-        <a href="#section" class="button-primary">Connect With Us</a>
+        <a href="#"class="button-primary" >Connect With Us<i class="fa-solid fa-play"></i> </a>
     </div>
     <!--About us-->
-    <div id="about">
+    <div id="about us">
+       <div class="about-us">
+        <div  class="aboutpicture" >
      <img src="images/about-us.jpg" alt="about us">
+     </div>
+        <div class="aboutus">
+            <div class="about">
      <h2>About Us</h2>
+     <div class="abotus">
+        <div class="about">
      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque accusantium fuga voluptatum. Ab eos impedit dolorum voluptas suscipit, dolorem quaerat doloremque sit! Ducimus harum aliquam possimus, dicta perferendis necessitatibus excepturi!
      </p>
+     </div>
+      </div>
     </div>
     <!--our services-->
     <h2>Our Services</h2>
+    <div id="Ourservices">
     <img src="images/digital.jpg" alt=" Digital Transformation">
     <div class="service">
         <h3>Digital Transformation</h3>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at corrupti!
         </p>
-            <i class="fa-solid fa-play"> </i>
-    </div>
+        <a href="#" class="Digital Plans">Digital Plans<i class="fa-solid fa-play"> </i></a>
+     </div>
     <img src="images/marketing.jpg" alt="Marketing">
     <div class="service">
         <h3>Marketing</h3>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at corrupti!
         </p>
-        <i class="fa-solid fa-play"> </i>
+        <a href="#"class="button-primary" >Marketing Plans<i class="fa-solid fa-play"></i> </a>
         </div>
      <img src="images/video.jpg" alt="Video Production">
      <div class="service">
@@ -70,7 +81,7 @@
          <p>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at corrupti!
          </p>
-         <i class="fa-solid fa-play"> </i>
+         <a href="#"class="button-primary" >Video Plans <i class="fa-solid fa-play"></i> </a>
          </div>
       <img src="images/web.jpg" alt="Web Development ">
       <div class="service">
@@ -78,7 +89,7 @@
           <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at corrupti!
           </p>
-          <i class="fa-solid fa-play"> </i>
+          <a href="#"class="button-primary" >Web Plans <i class="fa-solid fa-play"></i> </a>
           </div>
        <img src="images/print.jpg" alt="Print ">
        <div class="service">
@@ -86,37 +97,53 @@
            <p>
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at corrupti!
            </p>
-           <i class="fa-solid fa-play"> </i>
+           <a href="#"class="button-primary" >Print Plans <i class="fa-solid fa-play"></i> </a>
            </div>
         <img src="images/vision.jpg" alt="Our Vision  ">
         <div class="service">
-            <h3>Our visison  </h3>
+            <h3>Our vision  </h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at corrupti!
             </p>
-            <i class="fa-solid fa-play"> </i>
+            <a href="#"class="button-primary" >Learn More <i class="fa-solid fa-play"></i> </a>
             </div>
-     <!--our Team-->
-     <h1>Our Team</h1>
-     <img src="images/john.jpg" alt="John Doe">
-     <div class="service">
-        <h2>John Doe</h2>
-         <h3>CEO and Co-owner</h3>
-         <p>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at corrupti!
-         </p>
-         <img src="images/bob.jpg" alt="Bob Rite ">
-         <div class="service">
-            <h2>Bob Rite </h2>
-             <h3>CFO and Co-owner</h3>
-             <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at corrupti!
-             </p>
-     </div>
+    <!--our Team-->
+    <div class="service">
+        <h2>Our Team</h2>
+        <div class="JohnDoe">
+            <div class="john">
+                <img src="images/john.jpg" alt="John Doe">
+            </div>
+            <div class="messageinfo">
+                  <h3>John Doe</h3>
+                  <h4>CEO and Co-owner</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident
+                    aliquid eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem
+                    at corrupti!
+                </p>
+         </div>
+        </div>
+           <div class="BobRite">
+            <div class="Bob">
+                <img src="images/bob.jpg" alt="Bob Rite ">
+            </div>
+              <div class="messageinfo2">
+                <h3>Bob Rite </h3>
+                <h4>CFO and Co-owner</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repellat totam necessitatibus provident
+                    aliquid
+                    eveniet impedit, ipsam dolorum sunt ab eligendi cupiditate aliquam nesciunt tempore rem enim autem at
+                    corrupti!
+                </p>
+          </div>
+        </div>
+    </div>
       <!--Contact Us-->
-      <h1>Contact Us </h1>
+      <h2>Contact Us </h2>
       <div class="service">
-         <h2>Send Us a Message</h2>
+         <h3>Send Us a Message</h3>
             <form action="index.html" method="POST"> 
                 <label for="name-label">Full Name</label><br>
                 <input type="text" id="name-label" required>
@@ -130,8 +157,8 @@
                 <input type="submit" value="Send">
             </form>
  <!--Hours of operation-->
- <h1>Hours of operation </h1>
- 
+ <h4>Hours of operation </h4>
+ <div class="hours-wrapper">
  <table>
  <tr>
     <th> Day </th>
@@ -146,11 +173,14 @@
     <td> closed</td>
     </tr>
   </table>
+</div>
 <!--Location-->
-<h1>Location</h1>
+<h2>Location</h2>
+<div class="location-wrapper"></div>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.76503734216!2d-75.75306239999998!3d45.3443584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07afd713c56d%3A0xb73cbaee6d47a756!2s1385%20Woodroffe%20Ave%2C%20Nepean%2C%20ON%20K2G%201V8!5e0!3m2!1sen!2sca!4v1732833915283!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
-<!--Footer-->
+ </main>
 <footer>
     <p>
         &copy;Three Star Media , 2020
@@ -159,5 +189,3 @@
         All images are taken from Unsplash
     </p>
 </footer>
-
- </main>
